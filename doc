@@ -1,0 +1,81 @@
+matlab-mobile-data-3d-wireless-simulation/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── app/
+│   │
+│   ├── MobileData3DWirelessApp.m
+│   └── MobileData3DWirelessApp_Pro.m
+│
+├── docs/
+│   │
+│   ├── project_overview.md
+│   ├── theory_background.md
+│   ├── system_block_diagram.md
+│   ├── user_manual.md
+│   ├── simulation_scenarios.md
+│   └── limitations_and_future_work.md
+│
+├── docs/blocks/
+│   │
+│   ├── block01_digital_input_data.md
+│   ├── block02_channel_coding.md
+│   ├── block03_digital_modulation.md
+│   ├── block04_analog_modulation_demo.md
+│   ├── block05_baseband_to_rf.md
+│   ├── block06_3d_urban_wireless_environment.md
+│   ├── block07_receiver_frontend.md
+│   ├── block08_digital_demodulation.md
+│   ├── block09_channel_decoding.md
+│   └── block10_final_results.md
+│
+├── screenshots/
+│   │
+│   ├── full_app_interface.png
+│   ├── simulation_controls.png
+│   │
+│   ├── block01_input_bits.png
+│   ├── block02_channel_coding.png
+│   ├── block03_constellation.png
+│   ├── block04_analog_modulation.png
+│   ├── block05_rf_waveform.png
+│   ├── block06_3d_environment.png
+│   ├── block06_multipath_beamforming.png
+│   ├── block07_receiver_frontend.png
+│   ├── block08_demodulation.png
+│   ├── block09_channel_decoding.png
+│   └── block10_result_dashboard.png
+│
+├── examples/
+│   │
+│   ├── demo_01_qpsk_hamming.md
+│   ├── demo_02_ofdm_qam.md
+│   ├── demo_03_3d_urban_channel.md
+│   ├── demo_04_mimo_beamforming.md
+│   └── demo_05_random_building_layout.md
+│
+├── results/
+│   │
+│   ├── sample_result_qpsk_hamming.csv
+│   ├── sample_result_ofdm.csv
+│   ├── sample_result_beamforming.csv
+│   └── README.md
+│
+├── report/
+│   │
+│   ├── report.pdf
+│   ├── report.docx
+│   └── figures/
+│       ├── system_architecture.png
+│       ├── block_diagram.png
+│       ├── 3d_wireless_environment.png
+│       ├── beamforming_visualization.png
+│       └── result_dashboard.png
+│
+└── references/
+    │
+    ├── wireless_communication_notes.md
+    ├── matlab_documentation_links.md
+    └── recommended_papers.md
